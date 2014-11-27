@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_text_view">Animated Fractal Patterns</string>
+    <string name="fractal_title_text_view">Pretty Geometry</string>
+    <string name="app_name">Animated Fractal Patterns</string>
+    <string name="title_activity_display_fractal">Branching Fractal Pattern</string>
+    <string name="view_branching_fractal_button_text">Fractal Branches</string>
+    <string name="return_home_button_text">Return Home</string>
+    <string name="options_exit_text">Exit</string>
+    <string name="options_change_color_text">Change Color</string>
+    <string name="options_increase_speed_text">Faster</string>
+    <string name="options_decrease_speed_text">Slower</string>
+    <string name="title_activity_choose_color">ChooseColorActivity</string>
+    <string name="choose_color_title_text">Choose A Mighty Color</string>
+    <string name="options_reset_canvas_text">Reset Canvas</string>
+    <string name="options_set_rainbow_text">Rainbow</string>
+    <string name="view_triangle_fractal_button_text">Fractal Triangles</string>
+    <string name="title_activity_display_triangle_fractal">Fractal Triangles</string>
+    <string name="title_activity_display_branching_fractal">Fractal Branching</string>
+    <string name="title_activity_about">About This App</string>
+    <string name="main_activity_description_text">Watch fractal patterns unfold.\n\n While a pattern is generating,\n use the menu to alter its elements.</string>
+
+    <color name="white">#ffe1e1e1</color>
+    <color name="black">#ff4100ff</color>
+    <color name="darkBlue">#ff635ea7</color>
+    <color name="orange">#ffd59200</color>
+    <color name="red">#fff71300</color>
+    <color name="yellow">#ffeae000</color>
+    <color name="pink">#ffff65a3</color>
+    <color name="green">#ff009d0e</color>
+
+    <color name="green3">#ff006a28</color>
+
+
+    <color name="blue">#ff8fbbff</color>
+
+</resources>

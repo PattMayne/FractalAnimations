@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:padding="19dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.pattmayne.fractalapp.AboutActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:fontFamily="courier"
+        android:text="An Ugly Contraption \nby Matt Payne \n2014 \n\nwww.pattmayne.com \npattmayne@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:fontFamily="courier"
+            android:text="\nMusic by SpaceWine,\nExcept one drum-track by lotec."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="119dp">
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button1"
+            android:layout_width="wrap_content"
+            android:padding="11dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="www.pattmayne.com"
+            android:onClick="loadSite"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="124dp">
+
+    <Button
+    android:textColor="#FFFFFF"
+    android:background="@drawable/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="11dp"
+    android:gravity="center"
+    android:text="Okay"
+    android:onClick="okayButton"
+        />
+
+</LinearLayout>
+</LinearLayout>

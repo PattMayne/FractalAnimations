@@ -1,0 +1,83 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pattmayne.fractalapp.BranchingFractalActivity" >
+
+
+    <item android:id="@+id/change_color"
+        android:title="@string/options_change_color_text"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/rainbow_color"
+        android:title="@string/options_set_rainbow_text"
+        app:showAsAction="never"
+        android:orderInCategory="101"
+        />
+
+    <item android:id="@+id/increase_speed"
+        android:title="@string/options_increase_speed_text"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/decrease_speed"
+        android:title="@string/options_decrease_speed_text"
+        android:orderInCategory="103"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/increase_iterations"
+        android:title="More Iterations"
+        android:orderInCategory="104"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/decrease_iterations"
+        android:title="Fewer Iterations"
+        android:orderInCategory="105"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/shorter_lines"
+        android:title="Shorter Lines"
+        android:orderInCategory="106"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/longer_lines"
+        android:title="Longer Lines"
+        android:orderInCategory="107"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/reset_the_image"
+        android:title="@string/options_reset_canvas_text"
+        app:showAsAction="never"
+        android:orderInCategory="108"
+        />
+
+    <item android:id="@+id/exit_the_app"
+        android:title="Back"
+        app:showAsAction="never"
+        android:orderInCategory="109"
+        />
+
+    <item android:id="@+id/toggle_music"
+        android:title="''Music'' On/Off"
+        android:orderInCategory="111"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/next_track"
+        android:title="Next Track"
+        android:orderInCategory="110"
+        app:showAsAction="always"
+        />
+
+
+
+
+
+</menu>

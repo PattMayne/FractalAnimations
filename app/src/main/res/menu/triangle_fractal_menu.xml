@@ -1,0 +1,91 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pattmayne.fractalapp.TriangleFractalActivity" >
+
+    <item android:id="@+id/toggle_triangle_fill"
+            android:title="Outline/Fill"
+            android:orderInCategory="104"
+            app:showAsAction="never"
+        />
+
+    <item   android:id="@+id/toggle_triangle_persistent"
+        android:title="Persistence"
+        android:orderInCategory="105"
+        app:showAsAction="never"
+        />
+
+
+    <item android:id="@+id/increase_triangle_speed"
+        android:title="Faster"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/decrease_triangle_speed"
+        android:title="Slower"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/reverse_triangle"
+        android:title="Reverse"
+        android:orderInCategory="106"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/reset_triangle"
+        android:title="Reset Canvas"
+        android:orderInCategory="107"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/exit_the_app"
+        android:title="Back"
+        app:showAsAction="never"
+        android:orderInCategory="112"
+        />
+
+    <item android:id="@+id/triangle_seizure_mode"
+        android:title="Seizure Mode"
+        app:showAsAction="never"
+        android:orderInCategory="108"
+        />
+
+    <item android:id="@+id/triangle_crazy_mode"
+        android:title="Crazy Mode"
+        app:showAsAction="never"
+        android:orderInCategory="109"
+        />
+
+    <item android:id="@+id/triangle_toggle_equilateral"
+        android:title="Equilateral/Right"
+        app:showAsAction="never"
+        android:orderInCategory="110"
+        />
+
+    <item android:id="@+id/increase_triangle_spin"
+        android:title="More Spin"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/decrease_triangle_spin"
+        android:title="Less Spin"
+        android:orderInCategory="103"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/toggle_music"
+        android:title="''Music'' On/Off"
+        android:orderInCategory="111"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/next_track"
+        android:title="Next Track"
+        android:orderInCategory="113"
+        app:showAsAction="always"
+        />
+
+</menu>
